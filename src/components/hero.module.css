@@ -16,7 +16,7 @@
 
 .heroDetails {
   position: absolute;
-  background: blue;
+  background: red;
   left: 50%;
   bottom: 0;
   transform: translate(-50%, 0);
