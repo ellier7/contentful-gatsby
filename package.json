@@ -60,6 +60,7 @@
     "setup": "node ./bin/setup.js",
     "start": "npm run develop",
     "heroku-postbuild": "gatsby build",
-    "cleanup-repository": "yarn remove contentful-import chalk inquirer && node ./bin/cleanup.js && rimraf bin contentful"
+    "cleanup-repository": "yarn remove contentful-import chalk inquirer && node ./bin/cleanup.js && rimraf bin contentful",
+    "netlify:deploy": "netlify deploy -p"
   }
 }
